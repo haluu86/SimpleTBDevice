@@ -1,6 +1,12 @@
-#include <WiFi.h>
-#include <HTTPClient.h>
 #include <ArduinoJson.h>
+
+#ifdef ESP8266
+#include <ESP8266HTTPClient.h>
+#include <ESP8266WiFi.h>
+#else
+#include <HTTPClient.h>
+#include <WiFi.h>
+#endif // ESP8266
 
 #include "TBData.h"
 

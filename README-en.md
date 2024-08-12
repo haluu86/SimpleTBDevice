@@ -1,6 +1,4 @@
-Ngôn ngữ: Tiếng Việt - [English](README-en.md)  
-Một thư viện ~~thô sơ~~ "tối giản" để truyền và nhận dữ liệu lên máy chủ Thingsboard dành cho ESP8266.  
-Chỉ sử dụng để tham khảo.  
+A "simple" (to use) library for sending/reciving data to/from Thingsboard.  
 This libray should ONLY be used for *really* simple testing or educational purposes. (That's to say, this library is *really* bad!)  
 Tested on: ESP8266.  
 Required:  
